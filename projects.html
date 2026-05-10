@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Projects — Ravikula Silva</title>
+  <meta name="description" content="Full project portfolio of Ravikula Silva — Electrical Building Services Engineer. Melbourne, Australia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="prog"></div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" style="text-decoration:none;color:inherit">
+      <div class="nav-logo-dot"></div>
+      Ravikula Silva
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#expertise">Expertise</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#education">Education</a></li>
+      <li><a href="index.html#beyond">Beyond Work</a></li>
+      <li><a href="index.html#connect">Connect</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="theme-wrap">
+        <span class="theme-lbl" id="themeLbl">Light</span>
+        <button class="toggle" id="themeBtn" aria-label="Toggle theme"></button>
+      </div>
+      <a href="https://drive.google.com/file/d/1bvypcB7CYYxnmTJzgVBR_SY08cBVP_ob/view" target="_blank" class="nav-cv">Download CV</a>
+      <button class="hamburger" id="ham" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html#about"      onclick="closeMob()">About</a>
+  <a href="index.html#expertise"  onclick="closeMob()">Expertise</a>
+  <a href="index.html#experience" onclick="closeMob()">Experience</a>
+  <a href="index.html#projects"   onclick="closeMob()">Projects</a>
+  <a href="index.html#skills"     onclick="closeMob()">Skills</a>
+  <a href="index.html#education"  onclick="closeMob()">Education</a>
+  <a href="index.html#beyond"     onclick="closeMob()">Beyond Work</a>
+  <a href="index.html#connect"    onclick="closeMob()">Connect</a>
+</div>
+
+
+<!-- ALL PROJECTS -->
+<section class="proj-bg" style="padding-top:0">
+  <div class="container">
+    <div class="projects-page-header" style="padding-bottom:32px">
+      <a href="index.html#projects" class="back-link">&larr; Back to Home</a>
+      <div class="eyebrow">Full Portfolio</div>
+      <h1 class="sec-title">All <em>Projects</em></h1>
+      <p class="sec-sub">Research, academic and personal projects across electrical building services, lighting design, building automation, and renewable energy.</p>
+    </div>
+    <div class="proj-grid" style="grid-template-columns:1fr;margin-top:0">
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Electrical Building Services Design — Residential &amp; Commercial, Point Cook VIC</div>
+        <div class="proj-origin">RMIT University · Mar 2025 – Jun 2025</div>
+        <p class="proj-desc">Complete electrical building services design for a residential dwelling and a detached commercial graphic arts studio — cable sizing, voltage drop verification, protection coordination, and lighting design per AS 3000, AS 3008.1, and AS 1680, validated in PowerCAD and DIALux. Produced SLDs, circuit layouts, and protection device schedules for both distribution boards.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">Voltage drop 1.25% vs 3.35% permissible limit</div>
+          <div class="proj-outcome">Full AS 3000 / AS 3008.1 / AS 1680 compliant design package</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">AutoCAD&nbsp;·&nbsp;</span>
+          <span class="proj-tool">PowerCAD&nbsp;·&nbsp;</span>
+          <span class="proj-tool">DIALux&nbsp;·&nbsp;</span>
+          <span class="proj-tool">AS 3000 · AS 3008.1 · AS 1680</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Healthcare Facility Lighting Control System</div>
+        <div class="proj-origin">iAutomation Pty Ltd · Jan 2026 – Apr 2026</div>
+        <p class="proj-desc">Led estimation and delivery of a KNX/DALI-based lighting control system for a multi-storey healthcare facility in Victoria. Prepared BOQs and tender documentation, programmed KNX scene control, DALI dimming, relay switching, and BMS interfacing, and coordinated with contractors and wholesalers through to commissioning.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">AUD 120K project — delivered on scope</div>
+          <div class="proj-outcome">KNX/DALI system fully commissioned and verified</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">KNX/ETS&nbsp;·&nbsp;</span>
+          <span class="proj-tool">DALI&nbsp;·&nbsp;</span>
+          <span class="proj-tool">BOQ &amp; Estimation&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Site Commissioning</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Automated Small Scale Manufacturing System Design</div>
+        <div class="proj-origin">RMIT University · Jul 2023 – Sep 2023</div>
+        <p class="proj-desc">Designed PLC-based automation in Siemens TIA Portal for a modular manufacturing line — ladder logic for colour detection, proximity sensing, encoder-based positioning, and round-robin sorting with real-time calibration. Commissioned control systems and diagnosed PLC and actuator faults using structured fault-finding methods.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">Fully automated sorting and control system</div>
+          <div class="proj-outcome">Structured commissioning and fault diagnosis</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">Siemens TIA Portal&nbsp;·&nbsp;</span>
+          <span class="proj-tool">PLC Programming&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Commissioning</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Residential Hybrid Microgrid — Fairfield, Victoria</div>
+        <div class="proj-origin">RMIT University · Jul 2024 – Sep 2024</div>
+        <p class="proj-desc">Designed a residential hybrid microgrid integrating a 2.5 kW solar PV array, 2 kW inverter, 15 kWh battery storage, and diesel generator using real Fairfield household load data. HOMER Pro dispatch optimisation evaluating four strategies — Cycle Charging, Load Following, Combined, Predictive — with full NPC, LCOE, and techno-economic analysis.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">17% renewable penetration achieved</div>
+          <div class="proj-outcome">AS 3000 / AS 4777 compliant design</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">HOMER Pro&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Solar PV &amp; BESS&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Techno-economic Analysis</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Residential Building Automation System</div>
+        <div class="proj-origin">Personal Project · May 2023</div>
+        <p class="proj-desc">Designed and implemented a residential building automation system to centrally control lighting and electrical loads. IoT-based architecture using AWS IoT Core and MQTT protocol, integrating Raspberry Pi and NodeMCU controllers. Delivered 100% automation of lighting and fan systems, eliminating manual switching across all circuits.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">100% automation of lighting and fans</div>
+          <div class="proj-outcome">AWS IoT Core / MQTT integration</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">AWS IoT Core&nbsp;·&nbsp;</span>
+          <span class="proj-tool">MQTT&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Raspberry Pi&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Building Automation</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-title">Energy Efficient Smart Ceiling Fan Controller</div>
+        <div class="proj-origin">University of Moratuwa · Jan 2022 – Jun 2022</div>
+        <p class="proj-desc">Adaptive thermal comfort–based fan control system aligned with ASHRAE Standards. Applied principles of energy-efficient building services design, integrating environmental sensor data with automated control logic. IoT monitoring via AWS IoT Core, Raspberry Pi, and Node-RED for real-time data acquisition and visualisation.</p>
+        <div class="proj-outcomes">
+          <div class="proj-outcome">30% energy savings achieved</div>
+          <div class="proj-outcome">ASHRAE thermal comfort compliance</div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">AWS IoT Core&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Raspberry Pi&nbsp;·&nbsp;</span>
+          <span class="proj-tool">ASHRAE Standards&nbsp;·&nbsp;</span>
+          <span class="proj-tool">Node-RED</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="proj-more reveal" style="margin-bottom: 52px">
+      <a href="index.html#projects" class="btn-outline">&larr; Back to Featured Projects</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-logo">Ravikula <em>Silva</em></div>
+    <div class="foot-copy">© 2026 · ELECTRICAL BUILDING SERVICES · MELBOURNE AU</div>
+    <div class="foot-links">
+      <a href="https://www.linkedin.com/in/ravikula-silva/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Ravikula"                 target="_blank">GitHub</a>
+      <a href="https://drive.google.com/file/d/1bvypcB7CYYxnmTJzgVBR_SY08cBVP_ob/view" target="_blank">CV</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
