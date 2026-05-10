@@ -326,7 +326,7 @@ section { padding: 88px 0; }
 
 .sec-sub {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   max-width: 560px;
   line-height: 1.8;
   font-weight: 300;
@@ -419,7 +419,7 @@ section { padding: 88px 0; }
 
 .hero-desc {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.9;
   max-width: 500px;
   margin-bottom: 28px;
@@ -658,7 +658,7 @@ section { padding: 88px 0; }
 
 .exp-desc {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.8;
   font-weight: 300;
 }
@@ -760,7 +760,7 @@ section { padding: 88px 0; }
 
 .tl-pt {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.7;
   padding-left: 17px;
   position: relative;
@@ -841,7 +841,7 @@ section { padding: 88px 0; }
 
 .proj-desc {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.8;
   flex: 1;
   font-weight: 300;
@@ -856,7 +856,7 @@ section { padding: 88px 0; }
 
 .proj-bullet {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.7;
   padding-left: 14px;
   position: relative;
@@ -1197,7 +1197,7 @@ section { padding: 88px 0; }
 
 .edu-detail {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.7;
   font-weight: 300;
 }
@@ -1373,7 +1373,7 @@ section { padding: 88px 0; }
 
 .award-txt {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.6;
 }
 
@@ -1456,7 +1456,7 @@ section { padding: 88px 0; }
 
 .connect-body {
   font-size: 17px;
-  color: var(--muted);
+  color: var(--text2);
   line-height: 1.9;
   margin-bottom: 36px;
   font-weight: 300;
